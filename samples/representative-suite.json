@@ -1,0 +1,144 @@
+[
+  {
+    "id": "happy-path",
+    "purpose": "全国釣り堀マップAndroid の正常入力を検証する",
+    "items": [
+      {
+        "id": "fishing-pond-map-android-happy",
+        "title": "全国釣り堀マップAndroid happy",
+        "status": "ready",
+        "tags": [
+          "androidapp",
+          "closed-alpha"
+        ],
+        "region": "関東",
+        "fishTypes": [
+          "ニジマス",
+          "コイ"
+        ],
+        "priceRange": "3000-5000円",
+        "accessMethod": "車と徒歩",
+        "offlineCacheNote": "お気に入りキャッシュ済み"
+      }
+    ],
+    "expected": {
+      "result": "passed",
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "missing-required",
+    "purpose": "必須項目不足を error として検出する",
+    "items": [
+      {
+        "id": "fishing-pond-map-android-missing",
+        "status": "ready",
+        "tags": [
+          "androidapp",
+          "closed-alpha"
+        ],
+        "region": "関東",
+        "fishTypes": [
+          "ニジマス",
+          "コイ"
+        ],
+        "priceRange": "3000-5000円",
+        "accessMethod": "車と徒歩",
+        "offlineCacheNote": "お気に入りキャッシュ済み"
+      }
+    ],
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "warning",
+    "purpose": "推奨項目不足を warning として検出する",
+    "items": [
+      {
+        "id": "fishing-pond-map-android-warning",
+        "title": "全国釣り堀マップAndroid warning",
+        "status": "ready",
+        "tags": [
+          "androidapp",
+          "closed-alpha"
+        ],
+        "region": "関東",
+        "fishTypes": [
+          "ニジマス",
+          "コイ"
+        ],
+        "priceRange": "3000-5000円",
+        "accessMethod": "車と徒歩"
+      }
+    ],
+    "expected": {
+      "result": "warning",
+      "errors": 0,
+      "warnings": 1
+    }
+  },
+  {
+    "id": "mixed-batch",
+    "purpose": "正常、必須不足、警告を同一バッチで集計する",
+    "items": [
+      {
+        "id": "fishing-pond-map-android-happy",
+        "title": "全国釣り堀マップAndroid happy",
+        "status": "ready",
+        "tags": [
+          "androidapp",
+          "closed-alpha"
+        ],
+        "region": "関東",
+        "fishTypes": [
+          "ニジマス",
+          "コイ"
+        ],
+        "priceRange": "3000-5000円",
+        "accessMethod": "車と徒歩",
+        "offlineCacheNote": "お気に入りキャッシュ済み"
+      },
+      {
+        "id": "fishing-pond-map-android-missing",
+        "status": "ready",
+        "tags": [
+          "androidapp",
+          "closed-alpha"
+        ],
+        "region": "関東",
+        "fishTypes": [
+          "ニジマス",
+          "コイ"
+        ],
+        "priceRange": "3000-5000円",
+        "accessMethod": "車と徒歩",
+        "offlineCacheNote": "お気に入りキャッシュ済み"
+      },
+      {
+        "id": "fishing-pond-map-android-warning",
+        "title": "全国釣り堀マップAndroid warning",
+        "status": "ready",
+        "tags": [
+          "androidapp",
+          "closed-alpha"
+        ],
+        "region": "関東",
+        "fishTypes": [
+          "ニジマス",
+          "コイ"
+        ],
+        "priceRange": "3000-5000円",
+        "accessMethod": "車と徒歩"
+      }
+    ],
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 1
+    }
+  }
+]

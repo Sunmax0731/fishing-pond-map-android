@@ -1,0 +1,52 @@
+{
+  "rank": 83,
+  "domain": "AndroidApp",
+  "ideaNo": 14,
+  "ideaName": "全国釣り堀マップAndroid",
+  "repository": "fishing-pond-map-android",
+  "publish": "Google Play",
+  "createdIdeaLookup": {
+    "exactPathFirst": "D:/AI/AndroidApp/created_idea_014_fishing-pond-map-android",
+    "exactPathExists": true,
+    "fallbackSearched": false,
+    "fallbackResults": [],
+    "notes": "完全一致の created_idea と ZIP を使用した。"
+  },
+  "zipLookup": {
+    "exactZip": "D:/AI/AndroidApp/created_idea_014_fishing-pond-map-android/idea_014_fishing-pond-map-android.zip",
+    "exactZipExists": true,
+    "requiredFiles": [
+      "metadata.json",
+      "README.md",
+      "01_REQUIREMENTS.md",
+      "02_SPECIFICATION.md",
+      "03_DESIGN.md",
+      "04_IMPLEMENTATION_PLAN.md",
+      "05_TEST_PLAN.md",
+      "06_RELEASE_CHECKLIST.md"
+    ],
+    "missingRequiredFiles": []
+  },
+  "zipMetadata": {
+    "domain": "AndroidApp",
+    "no": 14,
+    "platform": "AndroidApp",
+    "field": "釣り・レジャー検索",
+    "idea": "全国釣り堀マップAndroid",
+    "overview": "全国の釣り堀を現在地、店舗名、地域、料金、魚種、営業時間、設備、アクセス条件から探せるAndroidアプリ。地図と一覧を片手で切り替え、候補の保存、訪問メモ、ルート起動、圏外でも読めるお気に入りキャッシュを扱う。",
+    "problem": "外出先ではPC向けWeb検索より、現在地、移動手段、通信状況、片手操作に合わせて釣り堀を探したい。",
+    "similar": "Google Maps, Yahoo!マップ, 釣りビジョン, アソビュー!, じゃらん",
+    "diff": "Web版の検索データをAndroidの現在地、ルート起動、オフラインお気に入り、訪問ログ、通知に接続する。",
+    "repositoryName": "fishing-pond-map-android",
+    "repositoryTitle": "fishing-pond-map-android",
+    "zipFile": "idea_014_fishing-pond-map-android.zip"
+  },
+  "metadataRepositoryMatches": true,
+  "metadataZipMatches": true,
+  "initialRepositoryReadme": {
+    "existedBeforeCreation": false,
+    "note": "正式 repo が存在しなかったため README.md は存在しないと記録し、domain docs と created_idea ZIP を根拠に作成した。"
+  },
+  "mojibakePolicy": "ZIP本文や既存Markdownは丸写しせず、PICKUP行、metadata、domain docsから正式docsを再構成する。",
+  "unstableEvidencePolicy": "ZIPサイズ、生成時刻、絶対一時パスはQCDS固定根拠に使わない。"
+}
