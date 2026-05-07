@@ -1,0 +1,25 @@
+{
+  "product": {
+    "repository": "fishing-pond-map-android",
+    "title": "全国釣り堀マップAndroid"
+  },
+  "items": [
+    {
+      "id": "fishing-pond-map-android-happy",
+      "title": "全国釣り堀マップAndroid happy",
+      "status": "ready",
+      "tags": [
+        "androidapp",
+        "closed-alpha"
+      ],
+      "region": "関東",
+      "fishTypes": [
+        "ニジマス",
+        "コイ"
+      ],
+      "priceRange": "3000-5000円",
+      "accessMethod": "車と徒歩",
+      "offlineCacheNote": "お気に入りキャッシュ済み"
+    }
+  ]
+}
