@@ -1,0 +1,14 @@
+{
+  "product": "fishing-pond-map-android",
+  "title": "全国釣り堀マップAndroid",
+  "domain": "AndroidApp",
+  "ideaNo": 14,
+  "platformType": "android-emulator",
+  "expectedPublicTarget": "Google Play",
+  "browser": null,
+  "android": {
+    "packageName": "com.sunmax0731.fishingpondmapandroid",
+    "evidence": "dist/android-emulator-result.json"
+  },
+  "evidence": "dist/platform-runtime-gate-result.json"
+}

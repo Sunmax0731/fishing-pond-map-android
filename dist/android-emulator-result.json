@@ -1,0 +1,18 @@
+{
+  "product": "fishing-pond-map-android",
+  "packageName": "com.sunmax0731.fishingpondmapandroid",
+  "build": {
+    "apk": "dist/fishing-pond-map-android-debug.apk",
+    "method": "android-sdk-aapt2-d8-apksigner"
+  },
+  "launch": {
+    "started": true,
+    "activity": ".MainActivity",
+    "amStartStatusOk": true,
+    "pid": "7101"
+  },
+  "emulator": {
+    "avd": "CodexApi30"
+  },
+  "manualTest": "not-run-by-codex"
+}
